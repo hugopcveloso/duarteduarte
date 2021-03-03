@@ -1,0 +1,94 @@
+.team-container {
+	margin-top: 100px;
+	margin-bottom: 100px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+
+.modal-width {
+	width: 75% !important;
+	max-width: none;
+}
+.modal-header {
+	height: 30px;
+	border: none;
+}
+.modal-footer {
+	.btn-team {
+		width: 200px;
+		background-color: black;
+		color: white;
+		border-radius: 0px;
+		transition: all 0.5s;
+		&:focus {
+			outline: 0 !important;
+			box-shadow: none;
+		}
+		&:hover {
+			transform: scale(1.01);
+		}
+	}
+}
+
+.person-container {
+	text-align: center;
+
+	border: solid 3px black;
+	width: 50%;
+	margin: 0 auto;
+
+	max-width: 500px;
+	padding: 30px;
+	h4 {
+		margin-top: 20px;
+		font-size: 25px;
+		font-weight: bold;
+	}
+	p {
+		font-size: 19px;
+		margin-top: 20px;
+	}
+	.btn-team {
+		width: 200px;
+		background-color: black;
+		color: white;
+		border-radius: 0px;
+		transition: all 0.5s;
+		&:focus {
+			outline: 0 !important;
+			box-shadow: none;
+		}
+		&:hover {
+			transform: scale(1.01);
+		}
+	}
+}
+
+.person-photo {
+	width: 100%;
+	max-width: 600px;
+}
+
+@media (max-width: 900px) {
+	.team-container {
+		margin-top: 70px;
+	}
+
+	.person-container {
+		width: 80%;
+		margin-top: 30px;
+		p {
+			font-size: 16px;
+			margin-top: 20px;
+		}
+	}
+}
+
+@media (max-width: 600px) {
+	.person-container {
+	}
+	.person-container {
+		width: 98%;
+	}
+}

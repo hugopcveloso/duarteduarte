@@ -1,0 +1,15 @@
+.padded-container {
+	background-color: white;
+	padding-left: 30px;
+	padding-right: 30px;
+}
+.btn-testing-this {
+	background-color: red;
+	border: none;
+}
+@media (max-width: 600px) {
+	.padded-container {
+		padding-left: 10px;
+		padding-right: 10px;
+	}
+}
