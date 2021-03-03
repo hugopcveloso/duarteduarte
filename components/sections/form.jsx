@@ -4,16 +4,16 @@ import { CSSTransition, SwitchTransition } from 'react-transition-group';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faComments } from '@fortawesome/free-solid-svg-icons';
 
-const backgroundImage = require('/images/form-background.jpg');
+const backgroundImage = require('../../static/images/form-background.jpg');
 
 const FormSection = (props) => {
   const styledBackground = {
-    backgroundImage: 'url(' + backgroundImage + ')',
+    backgroundImage: 'url("../../static/images/form-background.jpg")',
   };
 
   return (
     <div id="contact-section">
-      <div className="form-section-container" style={{ styledBackground }}>
+      <div className="form-section-container" style={styledBackground}>
         <div className="form-overlay-container">
           <div className="form-overlay" />
         </div>
