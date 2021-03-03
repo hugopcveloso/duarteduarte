@@ -3,28 +3,20 @@ import EvaluationForm from '../evaluation-form';
 import { CSSTransition, SwitchTransition } from 'react-transition-group';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faComments } from '@fortawesome/free-solid-svg-icons';
-import Image from 'next/image';
+
+const backgroundImage = require('/images/form-background.jpg');
 
 const FormSection = (props) => {
-  // const styledBackground = {
-  //   backgroundImage: 'url(' + backgroundImage + ')',
-  // };
+  const styledBackground = {
+    backgroundImage: 'url(' + backgroundImage + ')',
+  };
 
   return (
     <div id="contact-section">
-      <div className="form-section-container">
-        <Image
-          src="/static/images/form-background.jpg"
-          alt="photo-of-lisbon"
-          className="form-overlay-image"
-          width="100"
-          height="100"
-          layout="responsive"
-        />
+      <div className="form-section-container" style={{ styledBackground }}>
         <div className="form-overlay-container">
-          <div className="form-overlay"></div>
+          <div className="form-overlay" />
         </div>
-
         <div className="form-description-container">
           <h2>Form Title</h2>
           <p className="form-description-paragraph">
