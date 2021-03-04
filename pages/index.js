@@ -7,6 +7,7 @@ import Portfolio from '../components/sections/portfolio';
 import AreaSection from '../components/sections/area';
 import Team from '../components/sections/team';
 import FormSection from '../components/sections/form';
+import Testimonials from '../components/sections/testimonials';
 
 export default () => (
   <div>
@@ -20,6 +21,7 @@ export default () => (
 
         {/* <About /> */}
         <AreaSection />
+        <Testimonials />
         <FormSection />
       </div>
     </div>

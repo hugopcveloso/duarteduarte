@@ -8,7 +8,7 @@ const nextConfig = {
       fs: 'empty',
     };
     config.resolve.alias['components'] = path.join(__dirname, 'components');
-    config.resolve.alias['public'] = path.join(__dirname, 'public');
+    config.resolve.alias['static'] = path.join(__dirname, 'static');
     config.module.rules.push({
       test: /\.(png|jpg|gif|svg|eot|ttf|woff|woff2)$/,
       use: {

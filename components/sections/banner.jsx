@@ -100,7 +100,7 @@ const Banner = () => {
           }
         >
           <Button
-            variant="cta-banner"
+            variant="cta-banner fade-in"
             href=""
             onClick={() =>
               scroller.scrollTo('contact-section', {
@@ -113,7 +113,7 @@ const Banner = () => {
             Avaliar Casa
           </Button>
           <Button
-            variant="cta-banner"
+            variant="cta-banner fade-in"
             href=""
             onClick={() =>
               scroller.scrollTo('portfolio-section', {
@@ -127,7 +127,7 @@ const Banner = () => {
             Encontrar Casa{' '}
           </Button>
           <Button
-            variant="cta-banner"
+            variant="cta-banner fade-in"
             hreaf=""
             onClick={() =>
               scroller.scrollTo('contact-section', {

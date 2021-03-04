@@ -1,0 +1,32 @@
+.carousel-testimonial-img {
+  width: 100%;
+  margin: 0 auto;
+  height: 300px;
+}
+.carousel-caption {
+  padding-bottom: 60px;
+  width: 50vw;
+  margin: 0 auto;
+  text-align: center;
+}
+
+@media (max-width: 900px) {
+  .carousel-caption {
+    margin: 0 auto;
+    width: 80vw;
+    margin-left: -20px;
+    text-align: center;
+    padding-bottom: 10px;
+    p {
+      font-size: 13px;
+    }
+    h4 {
+      font-size: 16px;
+    }
+  }
+  .carousel-testimonial-img {
+    width: 100%;
+    margin: 0 auto;
+    height: 230px;
+  }
+}

@@ -17,16 +17,31 @@ class Portfolio extends Component {
           <p className="sold-tag">{house.sold ? 'Vendido' : 'Disponível'} </p>
 
           <div className="image-overlay d-flex">
+            {/* <Image
+              src={house.image}
+              alt="First slide"
+              className="carousel-image"
+              width="100"
+              height="100"
+            />
+            <Image
+              src={house.imagealt}
+              alt="Second slide"
+              className="carousel-image-alt"
+              width="100"
+              height="100"
+            /> */}
+
             <img
               className="carousel-image"
-              src={`/static/images/${house.image}`}
+              src={house.image}
               alt="First slide"
             />
 
             <img
-              className=" carousel-image-alt"
-              src={`/static/images/${house.imagealt}`}
-              alt="First slide"
+              className="carousel-image-alt"
+              src={house.imagealt}
+              alt="Second slide"
             />
           </div>
           <Carousel.Caption>
