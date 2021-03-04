@@ -10,8 +10,9 @@ const portfolioData = [
     price: '980 000€',
     tipologia: 'T6',
     areabruta: '264m²',
-    link: '',
-    sold: true,
+    link:
+      'https://www.remax.pt/imoveis/venda-moradia-t6-sintra-sintra-santa-maria-e-sao-miguel-sao-martinho-e-sao-pedro-de-penaferrim/121491571-5',
+    sold: false,
   },
   {
     id: 2,
@@ -23,8 +24,9 @@ const portfolioData = [
     price: '49 000€',
     tipologia: 'Terreno',
     areabruta: '495',
-    link: '',
-    sold: true,
+    link:
+      'https://www.remax.pt/imoveis/venda-terreno-t0-sobral-de-monte-agraco-sobral-de-monte-agraco/121491571-13',
+    sold: false,
   },
   {
     id: 3,

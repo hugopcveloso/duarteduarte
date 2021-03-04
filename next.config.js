@@ -3,6 +3,9 @@ const withPlugins = require('next-compose-plugins');
 const withVideos = require('next-videos');
 const withImages = require('next-images');
 const nextConfig = {
+  images: {
+    domains: ['i.ibb.co'],
+  },
   webpack: (config) => {
     config.node = {
       fs: 'empty',

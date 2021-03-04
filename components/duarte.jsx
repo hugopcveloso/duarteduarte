@@ -3,6 +3,7 @@ import { Modal, Button } from 'react-bootstrap';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faBriefcase, faNetworkWired } from '@fortawesome/free-solid-svg-icons';
 import Image from 'next/image';
+
 const Duarte = (props) => {
   return (
     <div className="person-container">

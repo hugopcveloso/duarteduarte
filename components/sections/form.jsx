@@ -3,6 +3,11 @@ import EvaluationForm from '../evaluation-form';
 import { CSSTransition, SwitchTransition } from 'react-transition-group';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faComments } from '@fortawesome/free-solid-svg-icons';
+import {
+  faFacebookF,
+  faInstagram,
+  faLinkedinIn,
+} from '@fortawesome/free-brands-svg-icons';
 
 const backgroundImage = require('../../static/images/form-background.jpg');
 
@@ -18,13 +23,26 @@ const FormSection = (props) => {
           <div className="form-overlay" />
         </div>
         <div className="form-description-container">
-          {/* <h2>Uma equipa para o ajudar</h2> */}
+          <h2>Encontre o que procura</h2>
           <p className="form-description-paragraph">
             Somos especialistas no mercado imobiliário e temos todos os meios
             necessários para realizar a venda do seu imóvel ao melhor preço, o
             mais rapidamente possível e com o menor incómodo para si e para a
-            sua família.
+            sua família. Preencha o formulário ao lado e faremos o nosso melhor
+            para o ajudar.
           </p>
+          <div className="socials-container">
+            <h4>Acompanhe o nosso trabalho: </h4>
+            <div className="form__description--socials">
+              <a href="https://www.instagram.com/duartevelosoremax">
+                <FontAwesomeIcon icon={faInstagram} className="social-icon" />
+              </a>
+
+              <a href="www.facebook.com/duartevelosoremax">
+                <FontAwesomeIcon icon={faFacebookF} className="social-icon" />
+              </a>
+            </div>
+          </div>
         </div>
 
         <div className="form-component-container">

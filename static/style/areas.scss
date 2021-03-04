@@ -47,8 +47,7 @@
 }
 
 #area-info-container {
-  margin-top: 58px;
-
+  margin-top: 60px;
   width: 49%;
   min-width: 0px;
   #area-image-header {
@@ -62,6 +61,7 @@
     position: relative;
     width: 100%;
     height: auto;
+    display: flex;
     img {
       opacity: 0.6;
       width: 100%;
@@ -80,6 +80,14 @@
       font-size: 30px;
     }
   }
+}
+
+.spinner-loader {
+  z-index: 20;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  color: white;
 }
 
 .my-node-enter {
@@ -107,16 +115,6 @@
   transform: translateX(-20px);
 
   transition: opacity 1000ms transform 1000ms;
-}
-
-.smooth-image {
-  transition: opacity 1s;
-}
-.image-visible {
-  opacity: 1;
-}
-.image-hidden {
-  opacity: 0;
 }
 
 @media (max-width: 1000px) {

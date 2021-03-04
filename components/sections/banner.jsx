@@ -3,7 +3,6 @@ import { Button, Navbar, Nav } from 'react-bootstrap';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faBars, faArrowCircleDown } from '@fortawesome/free-solid-svg-icons';
 import { scroller, animateScroll } from 'react-scroll';
-
 const Banner = () => {
   const [showBlocks, setShowBlocks] = useState(true);
 
