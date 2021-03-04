@@ -18,7 +18,7 @@ const FormSection = (props) => {
           <div className="form-overlay" />
         </div>
         <div className="form-description-container">
-          <h2>Uma equipa </h2>
+          {/* <h2>Uma equipa para o ajudar</h2> */}
           <p className="form-description-paragraph">
             Somos especialistas no mercado imobiliário e temos todos os meios
             necessários para realizar a venda do seu imóvel ao melhor preço, o
