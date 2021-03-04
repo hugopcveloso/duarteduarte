@@ -26,9 +26,8 @@ const Banner = () => {
           }}
         >
           <Navbar.Brand href="#home" id="navbar-logo">
-            Duarte
-            <br />
-            &Duarte
+            Duarte Veloso
+            <br />& Susana Duarte
           </Navbar.Brand>
           <Navbar.Toggle aria-controls="responsive-navbar-nav">
             <FontAwesomeIcon icon={faBars} className="burguer-icon" />

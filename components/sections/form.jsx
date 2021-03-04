@@ -18,18 +18,19 @@ const FormSection = (props) => {
           <div className="form-overlay" />
         </div>
         <div className="form-description-container">
-          <h2>Form Title</h2>
+          <h2>Uma equipa </h2>
           <p className="form-description-paragraph">
-            Sunt do ex ea cillum anim enim. Do labore pariatur aliqua aliqua
-            amet tempor proident. Eiusmod reprehenderit dolore qui officia enim
-            aute sint esse. Deserunt aliquip deserunt voluptate velit.
+            Somos especialistas no mercado imobiliário e temos todos os meios
+            necessários para realizar a venda do seu imóvel ao melhor preço, o
+            mais rapidamente possível e com o menor incómodo para si e para a
+            sua família.
           </p>
         </div>
 
         <div className="form-component-container">
           <div className="form-header">
             <FontAwesomeIcon icon={faComments} className="comments-icon" />
-            <h3>Contacta-nos</h3>
+            <h3>Contacte-nos</h3>
           </div>
           <EvaluationForm />
         </div>
