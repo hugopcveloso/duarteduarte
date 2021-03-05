@@ -1,7 +1,10 @@
 import '../static/style/index.scss';
+import { DefaultSeo } from 'next-seo';
+import SEO from '../next-seo.config.js';
 function MyApp({ Component, pageProps }) {
   return (
     <>
+      <DefaultSeo {...SEO} />
       <Component {...pageProps} />;
     </>
   );

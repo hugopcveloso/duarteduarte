@@ -35,11 +35,19 @@ const FormSection = (props) => {
             <h4>Acompanhe o nosso trabalho: </h4>
             <div className="form__description--socials">
               <a href="https://www.instagram.com/duartevelosoremax">
-                <FontAwesomeIcon icon={faInstagram} className="social-icon" />
+                <FontAwesomeIcon
+                  icon={faInstagram}
+                  className="social-icon insta-icon"
+                  id="insta-icon"
+                />
               </a>
 
               <a href="www.facebook.com/duartevelosoremax">
-                <FontAwesomeIcon icon={faFacebookF} className="social-icon" />
+                <FontAwesomeIcon
+                  icon={faFacebookF}
+                  className="social-icon"
+                  id="face-icon"
+                />
               </a>
             </div>
           </div>
