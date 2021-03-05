@@ -1,15 +1,16 @@
 import NextHead from 'next/head';
 import { string } from 'prop-types';
 
-const defaultDescription = '';
-const defaultKeywords = '';
+const defaultDescription = 'Uma equipa de agentes imobiliários para o ajudar';
+const defaultKeywords =
+  'imobiliário portugal, casa lisboa, apartamento lisboa, t4 lisboa, t5 lisboa, arrendar casa lisboa';
 const defaultOGURL = '';
 const defaultOGImage = '';
 
 const Head = (props) => (
   <NextHead>
     <meta charSet="UTF-8" />
-    <title>'{props.title || ''}'</title>
+    <title>'{props.title || 'Duarte Veloso & Susana Duarte'}'</title>
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta
       name="description"

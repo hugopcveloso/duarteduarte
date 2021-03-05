@@ -67,7 +67,7 @@ const AreaData = [
   {
     id: 6,
     name: 'Avenidas Novas',
-    image: '/static/images/areas/avenidas-novas',
+    image: '/static/images/areas/avenidas-novas.jpg',
     description:
       'Avenidas Novas é uma freguesia portuguesa do concelho de Lisboa, pertencente à Zona Centro da capital\
 			Avenidas Novas marcam o eixo de crescimento de Lisboa. Este bairro residencial, considerado dos melhores bairros lisboetas e com apartamentos grandes e até palacetes \
@@ -202,7 +202,7 @@ const AreaData = [
   {
     id: 16,
     name: 'Misericórdia',
-    image: '/static/images/areas/misericórdia',
+    image: '/static/images/areas/misericórdia.jpg',
     description:
       'Misericórdia é uma freguesia portuguesa do concelho de Lisboa, pertencente à Zona do Centro Histórico da capital\
 			Freguesia da Misericórdia resulta da agregação das antigas Freguesias da Encarnação, Mercês, Santa Catarina e São Paulo. \
