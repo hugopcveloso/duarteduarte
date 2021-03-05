@@ -2,7 +2,7 @@ const AreaData = [
   {
     id: 1,
     name: 'Ajuda',
-    image: '/static/images/areas/Ajuda.jpg',
+    image: 'https://i.ibb.co/Zc9zRt2/Ajuda.jpg',
     description:
       'Ajuda é uma freguesia portuguesa do concelho de Lisboa, pertencente à Zona Ocidental da capital. Tem sido renovada depois de ultrapassados os anos de crise de Portugal e assim mais habitada e até mesmo classificada como o “Novo Bairro Alto” de Lisboa. Melhorias constante na habitação e espaço público tal como nos serviços prestados à população levam a classificar esta freguesia, juntamente com a de Belém, a nova grande zona premium da capital portuguesa.',
     population: '15 617',
@@ -13,7 +13,7 @@ const AreaData = [
   {
     id: 2,
     name: 'Alcântara',
-    image: '/static/images/areas/Alcântara.jpg',
+    image: 'https://i.ibb.co/NCZfPyB/Alc-ntara.jpg',
     description:
       'Alcântara é uma freguesia portuguesa do concelho de Lisboa, pertencente à Zona Ocidental da capital. O seu nome deriva do árabe al-qantara, que significa "ponte". \
       Alcântara localiza-se no centro da cidade, junto ao rio Tejo o que a torna num dos locais mais apetecíveis para viver. \
@@ -26,7 +26,7 @@ const AreaData = [
   {
     id: 3,
     name: 'Alvalade',
-    image: '/static/images/areas/Alvalade.jpg',
+    image: 'https://i.ibb.co/CW20hRH/Alvalade.jpg',
     description:
       'Alvalade é uma freguesia portuguesa do concelho de Lisboa, pertencente à Zona Centro da capital\
 			Na freguesia de Alvalade estão localizadas algumas das maiores e mais prestigiadas Universidades do país, tanto públicas como privadas, de onde se destacam de entre as públicas a Cidade Universitária da Universidade de Lisboa, \
@@ -40,7 +40,7 @@ const AreaData = [
   {
     id: 4,
     name: 'Areeiro',
-    image: '/static/images/areas/Areeiro.jpg',
+    image: 'https://i.ibb.co/pz7sRm0/Areeiro.jpg',
     description:
       'Areeiro é uma freguesia portuguesa do concelho de Lisboa, pertencente à Zona Centro da capital. \
 			O Areeiro é um bairro com muita vida, e com uma estética muito variada (desde prédios a pequenas vivendas). \
@@ -54,7 +54,7 @@ const AreaData = [
   {
     id: 5,
     name: 'Arroios',
-    image: '/static/images/areas/Arroios.jpg',
+    image: 'https://i.ibb.co/6gyCJmm/Arroios.jpg',
     description:
       'Arroios é uma freguesia portuguesa do concelho de Lisboa, pertencente à Zona Centro da capital. \
 			É um bairro de avenidas largas, residencial e com algum comércio. A maioria das casas mantêm a sua arquitectura original e têm uma dimensão relativamente grande. \
@@ -67,7 +67,7 @@ const AreaData = [
   {
     id: 6,
     name: 'Avenidas Novas',
-    image: '/static/images/areas/avenidas-novas',
+    image: 'https://i.ibb.co/2KFbFdg/avenidas-novas.jpg',
     description:
       'Avenidas Novas é uma freguesia portuguesa do concelho de Lisboa, pertencente à Zona Centro da capital\
 			Avenidas Novas marcam o eixo de crescimento de Lisboa. Este bairro residencial, considerado dos melhores bairros lisboetas e com apartamentos grandes e até palacetes \
@@ -81,7 +81,7 @@ const AreaData = [
   {
     id: 7,
     name: 'Beato',
-    image: '/static/images/areas/Beato.jpg',
+    image: 'https://i.ibb.co/D8Mjm7y/Beato.jpg',
     description:
       'Beato é uma freguesia portuguesa do concelho de Lisboa, pertencente à Zona Oriental da capital,\
 			O Beato é das mais antigas freguesias de Lisboa, e é um lugar de antigas quintas e palacetes. \
@@ -94,7 +94,7 @@ const AreaData = [
   {
     id: 8,
     name: 'Belém',
-    image: '/static/images/areas/Belém.jpg',
+    image: 'https://i.ibb.co/9VzVYbw/Bel-m.jpg',
     description:
       'Belém é uma freguesia portuguesa do concelho de Lisboa, pertencente à Zona Ocidental da capital. \
 			Belém está ligada aos Descobrimentos, quando D. Manuel I subiu ao trono em 1495. Tem a sua sede na antiga freguesia de Santa Maria de Belém e,\
@@ -108,7 +108,7 @@ const AreaData = [
   {
     id: 9,
     name: 'Benfica',
-    image: '/static/images/areas/Benfica.jpg',
+    image: 'https://i.ibb.co/yW80Xy3/Benfica.jpg',
     description:
       'Benfica é uma freguesia portuguesa do concelho de Lisboa , pertencente à Zona Norte da capital,\
 			Benfica engloba cerca de dois terços do grande "pulmão verde" da capital portuguesa, o Parque Florestal de Monsanto.\
@@ -122,7 +122,7 @@ const AreaData = [
   {
     id: 10,
     name: 'Campo de Ourique',
-    image: '/static/images/areas/campo-de-ourique.jpg',
+    image: 'https://i.ibb.co/GWz5jRZ/campo-de-ourique.jpg',
     description:
       'Campo de Ourique é uma freguesia portuguesa do concelho de Lisboa, pertencente à Zona do Centro Histórico da capital\
 			Campo de Ourique é um bairro relativamente calmo, mas com um comércio bastante variado. \
@@ -136,7 +136,7 @@ const AreaData = [
   {
     id: 11,
     name: 'Campolide',
-    image: '/static/images/areas/Campolide.jpg',
+    image: 'https://i.ibb.co/NWJZXqx/Campolide.jpg',
     description:
       'Campolide é uma freguesia portuguesa do concelho de Lisboa, pertencente à Zona Centro da capital,\
 		Campolide é um bairro que está em constante mudança, com boa infraestrutura pública e cada vez mais atractivo para jovens. \
@@ -149,7 +149,7 @@ const AreaData = [
   {
     id: 12,
     name: 'Carnide',
-    image: '/static/images/areas/Carnide.jpg',
+    image: 'https://i.ibb.co/SmP6VZJ/Carnide.jpg',
     description:
       'Carnide é uma freguesia portuguesa do concelho de Lisboa, pertencente à Zona Norte da capital,\
 			Com uma população cada vez mais jovem, e uma estética antiga em Carnide pode encontrar de tudo, \
@@ -163,7 +163,7 @@ const AreaData = [
   {
     id: 13,
     name: 'Estrela',
-    image: '/static/images/areas/Estrela.jpg',
+    image: 'https://i.ibb.co/kMgMWvf/Estrela.jpg',
     description:
       'Estrela é uma freguesia portuguesa do concelho de Lisboa, pertencente à Zona do Centro Histórico da capital,\
 		  É um bairro calmo, com casas grandes, palacetes, e palácios antigos, deixados pela antiga nobreza e burguesia que se afixaram na Estrela ainda no século XVIII. \
@@ -176,7 +176,7 @@ const AreaData = [
   {
     id: 14,
     name: 'Lumiar',
-    image: '/static/images/areas/Lumiar.jpg',
+    image: 'https://i.ibb.co/nChNjJv/Lumiar.jpg',
     description:
       'Lumiar é uma freguesia portuguesa do município de Lisboa, pertencente à Zona Norte da capital.\
 			O Lumiar é dos bairros lisboetas com mais zonas verdes, desde o parque das Quinta das Conchas ao campo de golfe, paço do Lumiar.\
@@ -189,7 +189,7 @@ const AreaData = [
   {
     id: 15,
     name: 'Marvila',
-    image: '/static/images/areas/Marvila.jpg',
+    image: 'https://i.ibb.co/6R4g8nr/Marvila.jpg',
     description:
       'Marvila é uma freguesia portuguesa do concelho de Lisboa, pertencente à Zona Oriental da capital. \
       Marvila é um bairro com grandes contrastes, desde grandes avenidas, prédios, zonas de habitação social, vivendas clássicas, grandes zonas verdes, armazéns industriais. \
@@ -202,7 +202,7 @@ const AreaData = [
   {
     id: 16,
     name: 'Misericórdia',
-    image: '/static/images/areas/misericórdia',
+    image: 'https://i.ibb.co/y0xwvXw/miseric-rdia.jpg',
     description:
       'Misericórdia é uma freguesia portuguesa do concelho de Lisboa, pertencente à Zona do Centro Histórico da capital\
 			Freguesia da Misericórdia resulta da agregação das antigas Freguesias da Encarnação, Mercês, Santa Catarina e São Paulo. \
@@ -216,7 +216,7 @@ const AreaData = [
   {
     id: 17,
     name: 'Olivais',
-    image: '/static/images/areas/olivais.jpg',
+    image: 'https://i.ibb.co/8cNyLDG/olivais.jpg',
     description:
       'Olivais (até 2012, oficialmente "Santa Maria dos Olivais"[1]), é uma freguesia portuguesa do município de Lisboa, pertencente à Zona Oriental da capital.\
 			Os Olivais são um bairro calmo, maioritariamente habitacional e com zonas e ruas verdes. \
@@ -229,7 +229,7 @@ const AreaData = [
   {
     id: 18,
     name: 'Parque das Nações',
-    image: '/static/images/areas/parque-das-nacoes.jpg',
+    image: 'https://i.ibb.co/z5CgmmK/parque-das-nacoes.jpg',
     description:
       'Parque das Nações é uma freguesia portuguesa do concelho de Lisboa, pertencente à Zona Leste da capital,\
 			O Parque das Nações é hoje um dos melhores bairros para se viver em Lisboa. Com uma arquitectura contemporânea,\
@@ -243,7 +243,7 @@ const AreaData = [
   {
     id: 19,
     name: 'Penha de França',
-    image: '/static/images/areas/pena-de-frança',
+    image: 'https://i.ibb.co/3CrB3zF/pena-de-fran-a.jpg',
     description:
       'Penha de França é uma freguesia portuguesa do concelho de Lisboa, pertencente à Zona do Centro Histórico da capital. \
 			Situada no topo de uma das colinas de Lisboa, a Penha de França é dos bairros com a melhor vista em Lisboa. \
@@ -257,7 +257,7 @@ const AreaData = [
   {
     id: 20,
     name: 'Santa Clara',
-    image: '/static/images/areas/santa-clara.jpg',
+    image: 'https://i.ibb.co/FW0tYZP/santa-clara.jpg',
     description:
       'Santa Clara é uma freguesia portuguesa do concelho de Lisboa, pertencente à Zona Norte da capital.\
 			Santa Clara é a junção das antigas freguesias: Ameixoeira e Charneca. \
@@ -272,7 +272,7 @@ const AreaData = [
   {
     id: 21,
     name: 'Santa Maria Maior',
-    image: '/static/images/areas/santa-maria-maior.jpg',
+    image: 'https://i.ibb.co/DQgttc1/santa-maria-maior.jpg',
     description:
       'Santa Maria Maior é uma freguesia que reúne as zonas do Centro Histórico de Lisboa.\
 			Alfama, Baixa, Castelo, Chiado, Mouraria e Sé são os bairros da freguesia de Santa Maria Maior. \
@@ -287,7 +287,7 @@ const AreaData = [
   {
     id: 22,
     name: 'São Domingos de Benfica',
-    image: '/static/images/areas/sao-domingos-benfica.jpg',
+    image: './stati',
     description:
       'São Domingos de Benfica é uma freguesia portuguesa do concelho de Lisboa, pertencente à Zona Norte da capital.\
 			São Domingos de Benfica é uma zona bastante heterógenea. \
@@ -301,7 +301,7 @@ const AreaData = [
   {
     id: 23,
     name: 'São Vicente',
-    image: '/static/images/areas/sao-vicente.jpg',
+    image: 'https://i.ibb.co/M61yC0h/sao-vicente.jpg',
     description:
       'São Vicente é uma freguesia portuguesa do concelho de Lisboa, pertencente à Zona do Centro Histórico da capital. \
 		  É um bairro antigo que tem atraído jovens devido à sua proximidade ao centro da cidade. \

@@ -40,7 +40,6 @@
 .person-container {
   text-align: center;
 
-  border: solid 3px black;
   width: 50%;
   margin: 0 auto;
 
@@ -92,8 +91,6 @@
 }
 
 @media (max-width: 600px) {
-  .person-container {
-  }
   .person-container {
     width: 98%;
   }

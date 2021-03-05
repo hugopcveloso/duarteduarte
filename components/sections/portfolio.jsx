@@ -16,7 +16,7 @@ const Portfolio = () => {
     return (
       <Carousel.Item key={house.id}>
         <p className="sold-tag">{house.sold ? 'Vendido' : 'Disponível'} </p>
-        <div className={`image-overlay ${width >= 1200 ? 'd-flex' : ''}`}>
+        <div className={`image-overlay d-flex`}>
           <img className="carousel-image" src={house.image} alt="First slide" />
           {width >= 1200 && (
             <img
@@ -26,7 +26,7 @@ const Portfolio = () => {
             />
           )}
         </div>
-        <Carousel.Caption>
+        <Carousel.Caption className="carousel-portfolio-caption">
           <div className="carousel-caption-container">
             <h3>
               <strong>{house.price}</strong>

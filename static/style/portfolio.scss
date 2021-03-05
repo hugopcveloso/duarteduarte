@@ -15,9 +15,6 @@
 .svg-inline--fa.fa-w-10 {
   width: 60px;
 }
-.carousel-caption-container {
-  text-align: left;
-}
 
 .image-overlay {
   background: linear-gradient(
@@ -42,12 +39,19 @@
   font-size: 20px;
 }
 
+.carousel-portfolio-caption {
+  padding-bottom: 10px !important;
+  margin: 0px 0px !important;
+}
 .carousel-caption-container {
+  text-align: left;
+  width: 60%;
+  padding-left: 20px;
   h3 {
     font-size: 20px;
     padding-bottom: 14px;
   }
-  line-height: 0.8;
+  line-height: 1;
 }
 
 .portfolio__caption--link {

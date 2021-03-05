@@ -22,7 +22,7 @@ class Testimonials extends Component {
               alt="First slide"
             />
           </div>
-          <Carousel.Caption>
+          <Carousel.Caption className="testimonials-captions">
             <div className="testimonials-caption-container">
               <p>{testimonial.description}</p>
               <h4>- {testimonial.author}</h4>

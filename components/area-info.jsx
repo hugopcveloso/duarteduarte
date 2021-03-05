@@ -4,11 +4,12 @@ import Image from 'next/image';
 import Spinner from 'react-bootstrap/Spinner';
 import useWindowDimensions from '../utils/useWindowDimensions';
 
-const AreaInfo = ({ clickedId }) => {
+function AreaInfo(props) {
+  const clickedId = props.clickedId;
   const [loaded, setLoaded] = useState(false);
   const { height, width } = useWindowDimensions();
   const sizeOfImage = width - 20;
-
+  console.log(props);
   const selectedArea = AreaData[clickedId - 1];
 
   return (
@@ -52,13 +53,15 @@ const AreaInfo = ({ clickedId }) => {
       </p>
     </div>
   );
-};
-
-export default AreaInfo;
-
+}
 export async function getStaticProps(context) {
-  const data = await fetch();
+  const res = await fetch(`https://i.ibb.co/Zc9zRt2/Ajuda.jpg`);
+  const test = 'test';
   return {
-    props: {}, // will be passed to the page component as props
+    props: {
+      test,
+    }, // will be passed to the page component as props
   };
 }
+
+export default AreaInfo;
