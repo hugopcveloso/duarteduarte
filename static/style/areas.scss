@@ -90,33 +90,6 @@
   color: white;
 }
 
-.my-node-enter {
-  opacity: 0.01;
-  transform: translateX(-20px);
-}
-.my-node-enter-active {
-  opacity: 1;
-  transform: translateX(0px);
-  transition: all 1s;
-}
-.my-node-exit {
-  opacity: 1;
-}
-.my-node-exit-active {
-  opacity: 0;
-  transition: opacity 1000ms;
-}
-
-.my-node-appear {
-  opacity: 0;
-}
-.my-node-appear-active {
-  opacity: 1;
-  transform: translateX(-20px);
-
-  transition: opacity 1000ms transform 1000ms;
-}
-
 @media (max-width: 1000px) {
   #area-left-container {
     width: 100%;

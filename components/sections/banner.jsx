@@ -1,16 +1,52 @@
-import React, { useState, useContext } from 'react';
+import React, { useState, useRef } from 'react';
 import { Button, Navbar, Nav } from 'react-bootstrap';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faBars, faArrowCircleDown } from '@fortawesome/free-solid-svg-icons';
 import { scroller, animateScroll } from 'react-scroll';
+import Video from '../../static/video/lisbonvideo.mp4';
+import { motion, AnimatePresence } from 'framer-motion';
 const Banner = () => {
   const [showBlocks, setShowBlocks] = useState(true);
+  const refVideo = useRef(null);
+  // Animation Variants
+  const container = {
+    hidden: { opacity: 0 },
+    duration: 2,
+    show: {
+      opacity: 1,
+      y: 0,
+      transition: {
+        staggerChildren: 0.8,
+      },
+    },
+  };
+
+  const item = {
+    hidden: { opacity: 0, y: -100 },
+    show: { opacity: 1, y: 0 },
+  };
 
   return (
     <div className="banner-container">
-      <video autoPlay loop muted className="video-container">
+      <video
+        src={Video}
+        ref={refVideo}
+        preload={'auto'}
+        autoPlay
+        loop
+        muted
+        className="video-container"
+      />
+      {/* <video
+        ref={refVideo}
+        preload={'auto'}
+        autoPlay
+        loop
+        muted
+        className="video-container"
+      >
         <source src="../../static/video/lisbonvideo.mp4" type="video/mp4" />
-      </video>
+      </video> */}
       <div className="video-overlay-container">
         <div className="video-overlay" />
       </div>
@@ -90,7 +126,10 @@ const Banner = () => {
         </Navbar>
       </header>
       <div className="banner-content">
-        <div
+        <motion.div
+          variants={container}
+          initial="hidden"
+          animate="show"
           className={
             showBlocks
               ? 'centering-buttons-container'
@@ -98,7 +137,9 @@ const Banner = () => {
           }
         >
           <Button
-            variant="cta-banner fade-in"
+            as={motion.button}
+            variants={item}
+            variant="cta-banner"
             href=""
             onClick={() =>
               scroller.scrollTo('contact-section', {
@@ -111,7 +152,9 @@ const Banner = () => {
             Avaliar Casa
           </Button>
           <Button
-            variant="cta-banner fade-in"
+            as={motion.button}
+            variants={item}
+            variant="cta-banner"
             href=""
             onClick={() =>
               scroller.scrollTo('portfolio-section', {
@@ -125,7 +168,9 @@ const Banner = () => {
             Encontrar Casa{' '}
           </Button>
           <Button
-            variant="cta-banner fade-in"
+            as={motion.button}
+            variants={item}
+            variant="cta-banner"
             hreaf=""
             onClick={() =>
               scroller.scrollTo('contact-section', {
@@ -138,7 +183,7 @@ const Banner = () => {
             {' '}
             Vender Casa{' '}
           </Button>
-        </div>
+        </motion.div>
       </div>
       <FontAwesomeIcon
         icon={faArrowCircleDown}

@@ -16,11 +16,12 @@ const Duarte = (props) => {
         layout="responsive"
       />
       <h4>Duarte Veloso</h4>
-      <p>Empreendedor desde jovem com a criação de uma start-up de sucesso.</p>
+      <p>Empreendedor desde jovem com a criação de uma start-up de sucesso. </p>
       <p>
         O meu foco sempre foi prestar um serviço de excelência, assente na
         confiança, ética e honestidade.
       </p>
+
       {/* <Button variant="team" onClick={() => setModalShow(true)}>
 					Acerca
 				</Button>
