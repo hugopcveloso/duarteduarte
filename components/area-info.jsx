@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect, useRef } from 'react';
 import AreaData from '../static/data/area-data';
 import useWindowDimensions from '../utils/useWindowDimensions';
 import { motion, AnimatePresence } from 'framer-motion';
@@ -6,22 +6,29 @@ const AreaInfo = ({ clickedId }) => {
   const [loaded, setLoaded] = useState(false);
   const { height, width } = useWindowDimensions();
   const sizeOfImage = width;
-
+  const imageRef = useRef();
   const selectedArea = AreaData[clickedId - 1];
 
+  useEffect(() => {
+    if (imageRef.current.complete) setLoaded(true);
+  }, []);
+
   return (
-    <div id="area-info-container" className="fade-in">
-      {/* Fazer um map do area-list-data.
+    <AnimatePresence exitBeforeEnter>
+      <motion.div
+        id="area-info-container"
+        initial={{ opacity: 0, y: -50 }}
+        animate={{ opacity: 1, y: 0 }}
+        exit={{ opacity: 0, y: 50 }}
+        style={{ display: `${loaded ? 'block' : 'none'}` }}
+        duration={2}
+      >
+        {/* Fazer um map do area-list-data.
 			onde há um on-click, e em cada on-click
 			é enviado o  para o parent */}
-      <AnimatePresence>
-        <motion.div
-          initial={{ x: 50, scale: 0, opacity: 0 }}
-          animate={{ x: 0, scale: 1, opacity: 1 }}
-          transition={2}
-          id="area-image-header"
-        >
+        <motion.div id="area-image-header">
           <motion.img
+            ref={imageRef}
             id="area-image"
             className={``}
             height="400"
@@ -32,19 +39,20 @@ const AreaInfo = ({ clickedId }) => {
 
           <h1 id="area-info-title">{selectedArea.name}</h1>
         </motion.div>
-      </AnimatePresence>
-      <br />
-      <p>{selectedArea.description}</p>
-      <p>
-        <strong> População: </strong> {selectedArea.population}{' '}
-      </p>
-      <p>
-        <strong> Área: </strong> {selectedArea.area}{' '}
-      </p>
-      <p>
-        <strong> Densidade populacional: </strong> {selectedArea.densidade}{' '}
-      </p>
-    </div>
+
+        <br />
+        <p>{selectedArea.description}</p>
+        <p>
+          <strong> População: </strong> {selectedArea.population}{' '}
+        </p>
+        <p>
+          <strong> Área: </strong> {selectedArea.area}{' '}
+        </p>
+        <p>
+          <strong> Densidade populacional: </strong> {selectedArea.densidade}{' '}
+        </p>
+      </motion.div>
+    </AnimatePresence>
   );
 };
 
